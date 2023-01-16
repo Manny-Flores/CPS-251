@@ -1,2 +1,2 @@
-# CPS-251
+# CPS251
 For my CPS251 class
