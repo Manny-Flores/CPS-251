@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">NavProject</string>
+    <string name="img1">Display Image 1</string>
+    <string name="img2">Display Image 2</string>
+    <string name="img3">Display Image 3</string>
+    <string name="img1desc">Android Guy With da Drill</string>
+    <string name="img3desc">He has a wrench.</string>
+    <string name="img2desc">Android Guy with wifi now!</string>
+    <string name="displayPlaceholder">Image 1</string>
+    <string name="displayImgText">Here\'s the image!</string>
+</resources>
