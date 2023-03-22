@@ -42,13 +42,8 @@ class SecondFragment : Fragment() {
         arguments?.let {
             val args = SecondFragmentArgs.fromBundle(it)
             binding.message.text = "${args.message}"
-            if(args.message.equals("Image 1")){
-                binding.imageViewFinal.setImageResource(R.drawable.android_image_1);
-            }else if(args.message.equals("Image 2")){
-                binding.imageViewFinal.setImageResource(R.drawable.android_image_2);
-            }else{
-                binding.imageViewFinal.setImageResource(R.drawable.android_image_3);
-            }
+            binding.imageViewFinal.setImageResource(args.image);
+
         }
     }
 
